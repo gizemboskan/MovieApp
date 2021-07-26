@@ -1,3 +1,3 @@
 | Preview | 
 | --- | 
-| ![Preview](movieApp.gif) | 
+| ![Preview](gifs/movieApp.gif) | 
