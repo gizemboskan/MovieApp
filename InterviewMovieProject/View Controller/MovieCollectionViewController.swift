@@ -149,10 +149,10 @@ extension MovieCollectionViewController:  UICollectionViewDelegate, UICollection
             cell.setNeedsLayout()
         }
         
-        //        cell.movieImageView.layer.borderColor = UIColor(white: 0, alpha: 0.3).cgColor
-        //        cell.movieImageView.layer.borderWidth = 2
-        //        cell.movieImageView.layer.cornerRadius = 3
-        //        cell.layer.cornerRadius = 7
+        cell.movieImageView.layer.borderColor = UIColor(white: 0, alpha: 0.3).cgColor
+        cell.movieImageView.layer.borderWidth = 2
+        cell.movieImageView.layer.cornerRadius = 3
+        cell.layer.cornerRadius = 7
         
         if movie.isFav{
             cell.movieFavView.alpha = 1
